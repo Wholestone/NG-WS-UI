@@ -3,7 +3,7 @@ name: Releasing ng-ws-ui
 on:
   push:
     branches:
-      - ng-ws-ui
+      - master
 
 jobs:
   release:

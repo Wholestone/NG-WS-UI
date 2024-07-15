@@ -16,7 +16,7 @@ A collection of reusable Angular 17 UI components.
 To install the entire `ng-ws-ui` package:
 
 ```bash
-npm install ng-ws-ui
+npm install ng-ws-ui 
 ```
 
 Or, to install individual libraries:
@@ -30,13 +30,14 @@ Import the desired component in your standalone component or app.component.ts:
 
 ```typescript
 import { Component } from '@angular/core';
+
 import { NgWsVideoPlayerComponent } from 'ng-ws-video-player';
 
 @Component({
-selector: 'app-root',
-standalone: true,
-imports: [NgWsVideoPlayerComponent],
-template: `<ng-ws-video-player/>`
+  selector: 'app-root',
+  standalone: true,
+  imports: [NgWsVideoPlayerComponent],
+  template: `<ng-ws-video-player/>`
 })
 export class AppComponent {}
 ```
