@@ -11,7 +11,7 @@ A collection of reusable Angular 17 UI components.
 - [Installation](#installation)
 - [Usage](#usage) 
 
-## Installation
+## Installation 
 
 To install the entire `ng-ws-ui` package:
 
