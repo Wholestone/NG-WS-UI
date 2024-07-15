@@ -6,7 +6,7 @@
 
 A collection of reusable Angular 17 UI components.
 
-## Table of Contents
+## Table of Contents 
 
 - [Installation](#installation)
 - [Usage](#usage) 
