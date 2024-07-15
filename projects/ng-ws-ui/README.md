@@ -28,7 +28,7 @@ npm install ng-ws-video-player
 
 Import the desired component in your standalone component or app.component.ts:
 
-```typescript
+```typescript 
 import { Component } from '@angular/core';
 
 import { NgWsVideoPlayerComponent } from 'ng-ws-video-player';
