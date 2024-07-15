@@ -78,7 +78,7 @@ npm publish
 
 ### To publish the entire ng-ws-ui package:
 
-1. Create a new library called `full-lib` that includes all component libraries as `PeerDependencies`.
-2. Build the `full-lib`.
-3. Navigate to `dist/full-lib`.
+1. Create a new library called `ng-ws-ui` that includes all component libraries as `PeerDependencies`.
+2. Build the `ng-ws-ui`.
+3. Navigate to `dist/ng-ws-ui`.
 4. Publish it to npm.
