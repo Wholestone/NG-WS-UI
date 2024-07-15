@@ -1,0 +1,45 @@
+{
+  "name": "ng-ws-ui",
+  "version": "1.0.3",
+  "author": "WholeStone",
+  "description": "A collection of reusable Angular 17 UI components.",
+  "repository": {
+    "url": "https://github.com/Wholestone/NG-WS-UI",
+    "type": "git"
+  },
+  "keywords": [
+    "angular",
+    "angular-17",
+    "angular-ui-library",
+    "angular-component-library",
+    "ui",
+    "ui-lib",
+    "ui-components",
+    "video-player",
+    "angular-video-player",
+    "angular-17-video-player"
+  ],
+  "engines": {
+    "node": ">=20.15.0"
+  },
+  "scripts": {
+    "build": "ng build full-lib"
+  },
+  "peerDependencies": {
+    "@angular/common": "^17.3.0",
+    "@angular/core": "^17.3.0",
+    "ng-ws-video-player": "^1.1.0"
+  },
+  "dependencies": {
+    "tslib": "^2.3.0"
+  },
+  "devDependencies": {
+    "@angular/cli": "^17.3.4",
+    "@semantic-release/release-notes-generator": "^14.0.1",
+    "@semantic-release/changelog": "^6.0.3",
+    "@semantic-release/npm": "^12.0.1",
+    "@semantic-release/github": "^10.1.0",
+    "@semantic-release/git": "^10.0.1"
+  },
+  "sideEffects": false
+}
