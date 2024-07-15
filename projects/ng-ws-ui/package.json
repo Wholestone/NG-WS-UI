@@ -23,7 +23,7 @@
     "node": ">=20.15.0"
   },
   "scripts": {
-    "build": "ng build full-lib"
+    "build": "ng build ng-ws-ui"
   },
   "peerDependencies": {
     "@angular/common": "^17.3.0",
